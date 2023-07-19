@@ -1,0 +1,23 @@
+.footer-fluid {
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.lang-btn {
+    background-color: #2d2d2d;
+    color: #fff;
+}
+
+.footer-fluid a {
+    color: #ddd;
+    text-decoration: underline;
+
+}
+.footer-fluid ul {
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+.footer-fluid ul li {
+    list-style: none;
+    margin-top: 10px;
+}

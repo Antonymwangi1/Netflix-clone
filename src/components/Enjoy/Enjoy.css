@@ -1,0 +1,38 @@
+.enjoy-fluid {
+    margin-top: 50px;
+    border-bottom: 10px solid #2b2b2b;
+    padding: 30px;
+}
+
+.tv-img {
+    width: 480px;
+    z-index: 100;
+}
+
+.col-lg-6 {
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.content {
+    /* border: 1px solid red; */
+    width: 28rem;
+}
+
+.enjoy-fluid h1 {
+    font-size: 3rem;
+}
+
+.enjoy-fluid p {
+    font-size: 1.3rem;
+}
+
+.enjoy-video {
+    position: absolute;
+    top: 21%;
+    width: 365px;
+}
