@@ -16,3 +16,62 @@
 .profile-content p {
     font-size: 23px;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .profile-fluid {
+        width: 100%;
+        padding: 0;
+        /* border: 1px solid red; */
+        margin-top: 50px;
+    }
+    .profile-fluid .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-fluid .row .col-lg-6 {
+        border: 1px solid white;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .profile-content {
+        width: 100%;
+    }
+    .profile-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 920px) {
+    .profile-fluid {
+        width: 100%;
+        padding: 0;
+        /* border: 3px solid red; */
+    }
+    .profile-fluid .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .profile-fluid .row .col-lg-6 {
+        /* border: 1px solid white; */
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .profile-content {
+        width: 100%;
+    }
+    .profile-img {
+        width: 100%;
+    }
+    .profile-content h1 {
+        font-size: 40px;
+    }
+    
+    .profile-content p {
+        font-size: 33px;
+    }
+}

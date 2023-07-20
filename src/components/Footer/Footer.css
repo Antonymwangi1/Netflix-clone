@@ -21,3 +21,35 @@
     list-style: none;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .footer-fluid {
+        padding: 0;
+        /* border: 1px solid red; */
+        margin-top: 90px;
+    }
+    .footer-fluid .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 920px) {
+    .footer-fluid {
+        padding: 0;
+        /* border: 1px solid red; */
+        margin-top: 90px;
+    }
+    .footer-fluid .row {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-fluid p {
+        font-size: 30px;
+    }
+    .footer-fluid .row .col-lg-4 {
+        font-size: 30px;
+    }
+}

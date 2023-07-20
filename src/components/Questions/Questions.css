@@ -68,3 +68,44 @@
     justify-content: center;
     margin-top: 20px;
 }
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .questions-fluid {
+        padding: 0;
+        /* border: 1px solid red; */
+        margin-top: 90px;
+    }
+    .questions-fluid .card {
+        padding: 0;
+        margin: 0;
+    }
+    .questions-fluid form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .questions-fluid form .input {
+        width: 90%;
+    }
+    .questions-fluid form .get-started-btn {
+        margin-top: 20px;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 920px) {
+    .questions-fluid {
+        padding: 0;
+        /* border: 1px solid red; */
+        margin-top: 90px;
+    }
+    .questions-fluid .card {
+        padding: 0;
+        margin: 0;
+    }
+    .questions-fluid form {
+        width: 100%;
+    }
+}

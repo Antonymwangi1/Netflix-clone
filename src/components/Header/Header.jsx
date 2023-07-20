@@ -15,7 +15,7 @@ const Header = () => {
         <h1>Unlimited movies, TV shows, and more</h1>
         <p>Watch anywhere. Cancel anytime.</p>
         <p>Ready to watch? Enter your email to create or restart your membership.</p>
-        <form>
+        <form className="form">
             <input type="email" name="email" id="email" className="input" placeholder="Email address" />
             <button className="btn get-started-btn">Get Started</button>
         </form>
